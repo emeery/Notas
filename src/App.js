@@ -30,11 +30,13 @@ class App extends Component {
         id: snap.key,
         notaContenido: snap.val().notaContenido
       })
+
+      this.setState({
+        notas: notasPrevias
+      })
     })
 
-    this.setState({
-      notas: notasPrevias
-    })
+    
   }
   agregarNota = (nota) => {
     // introduce la nueva nota dentro del arreglo

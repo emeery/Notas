@@ -14,6 +14,6 @@ class Nota extends React.Component {
     }
 }
 Nota.propTypes = {
-    notaContenido: PropTypes.string
+    notaContenido: PropTypes.string.isRequired
 }
 export default Nota;
