@@ -1,0 +1,14 @@
+.nota_contenido {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: lightslategrey;
+    border-radius: 4px;
+    width: 25rem;
+    display: flex;
+    justify-content: space-between;
+}
+.x {
+    cursor: pointer;
+    text-align: right;
+    height: 35px;
+}
